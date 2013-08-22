@@ -14,7 +14,7 @@ var ndir = require('ndir');
 var pkg = JSON.parse(fs.readFileSync(path.join(__dirname, 'package.json')));
 var config = require('./config').config;
 config.version = pkg.version;
-
+console.log(1);
 // assets
 var assets = {};
 if (config.mini_assets) {
